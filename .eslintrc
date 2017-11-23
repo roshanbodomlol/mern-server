@@ -1,0 +1,20 @@
+{
+    "extends": "airbnb",
+    "rules": {
+      "react/jsx-filename-extension": "off",
+      "arrow-body-style": "off",
+      "comma-dangle": ["error", "never"],
+      "linebreak-style": "off",
+      "no-console": "off",
+      "max-len": "off",
+      "no-alert": "off"   ,
+      "indent": ["error", 4, { "SwitchCase": 1 }],
+      "react/jsx-indent": ["error", ["tab", 1]],
+      "func-names": "off",
+      "prefer-arrow-callback": "off"    
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  }
